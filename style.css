@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap')
+
 * {
     margin: 0px;
 }
@@ -26,6 +27,7 @@
     --plyr-tooltip-color: rgb(0, 0, 0); 
 
     --plyr-control-icon-size: 32px;
+    
 }
 
 h1 {
@@ -38,7 +40,7 @@ h1 {
 }
 
 body {
-    background-color: rgb(49, 46, 46);
+    background-color: rgb(0, 0, 0);
 }
 
 div {
@@ -69,25 +71,20 @@ margin-bottom: 0px;
  
 }
 
-img{
-    display: flex;
-    align-items: center;
-}
 
 footer {
     margin: 20px;
     margin-bottom: 0px;
         padding: 15px;
         background-color: #ffffff;
-        border: 5px black;
-        border-style: double;
+        border: 5px rgb(92, 92, 92);
         font-size: 20px;
         font-family: "Alef", sans-serif;
     }
 
     a:link, 
     a:visited {
-      color: #000000; 
+      color: #690669; 
     }
 
 a:hover, 
@@ -116,7 +113,6 @@ figcaption {
    width: 350px;
     margin: 50px;
     padding-bottom: 10px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
